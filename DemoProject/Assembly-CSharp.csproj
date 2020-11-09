@@ -62,7 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\World1\Scripts\NewTestScript.cs" />
-    <Compile Include="Assets\World2\Scripts\SpawnReds.cs" />
+    <Compile Include="Assets\World2\Scripts\Spawner.cs" />
     <Compile Include="Assets\World3\Scripts\Test.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/britt/CloudStation/GitHub/GitWorkshop-git/GitWorkshop/DemoProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
