@@ -13,8 +13,11 @@ GameObject:
   - component: {fileID: 5489148700468732090}
   - component: {fileID: 6364343191575999832}
   - component: {fileID: 6415371459276282702}
+  - component: {fileID: 4355821282046147760}
+  - component: {fileID: 725441860956921923}
+  - component: {fileID: 9200109051823470564}
   m_Layer: 0
-  m_Name: Black
+  m_Name: BlackCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3927451909130843357}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
@@ -111,3 +114,43 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4355821282046147760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3927451909130843357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c8eccb5223edfa449c1137904984422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityValue: 3
+--- !u!114 &725441860956921923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3927451909130843357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f0e0e56ac0975408d673bd010f1fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleEffect: {fileID: 8726224574067639910, guid: 1d6ce008e11304647a61767118203e0d,
+    type: 3}
+--- !u!114 &9200109051823470564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3927451909130843357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5463ae8e27177c4f8f19f956adff965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 1
