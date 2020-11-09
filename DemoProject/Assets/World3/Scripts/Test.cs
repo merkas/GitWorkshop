@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewTestScript : MonoBehaviour
+public class Test : MonoBehaviour
 {
-    public GameObject ball;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +13,6 @@ public class NewTestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Space))
-        {
-            Instantiate(ball);
-        }
+        
     }
 }
