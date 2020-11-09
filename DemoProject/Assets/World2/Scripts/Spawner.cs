@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnReds : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
-    public GameObject red;
+    public GameObject obj;
 
     void Update()
     {
         Vector3 randomPos = new Vector3(Random.Range(-100f, 100f), 2.5f, Random.Range(-100f, 100f));
-        Instantiate(red, randomPos, Quaternion.identity);
+        Instantiate(obj, randomPos, Quaternion.identity);
     }
 }
