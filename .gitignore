@@ -1938,3 +1938,5 @@ DemoProject/.vs/DemoProject/v15/.suo
 *.meta
 *.meta
 *.meta
+DemoProject/Assembly-CSharp.csproj
+DemoProject/DemoProject.sln
