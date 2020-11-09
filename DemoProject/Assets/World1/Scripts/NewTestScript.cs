@@ -16,7 +16,7 @@ public class NewTestScript : MonoBehaviour
     {
         if(Input.GetKeyUp(KeyCode.Space))
         {
-            Instantiate(ball);
+            Instantiate(ball, this.gameObject.transform);
         }
     }
 }
