@@ -5,10 +5,11 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject obj;
+    public float heightSpawn = 2.5f;
 
     void Update()
     {
-        Vector3 randomPos = new Vector3(Random.Range(-100f, 100f), 2.5f, Random.Range(-100f, 100f));
+        Vector3 randomPos = new Vector3(Random.Range(-100f, 100f), heightSpawn, Random.Range(-100f, 100f));
         Instantiate(obj, randomPos, Quaternion.identity);
     }
 }
