@@ -95,8 +95,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\World1\Scripts\NewTestScript.cs" />
-    <Compile Include="Assets\World2\Scripts\GravityPull.cs" />
+    <Compile Include="Assets\World2\Scripts\GravityFall.cs" />
+    <Compile Include="Assets\World2\Scripts\ParticleEffectSpawner.cs" />
     <Compile Include="Assets\World2\Scripts\Spawner.cs" />
+    <Compile Include="Assets\World2\Scripts\TimedDestroy.cs" />
     <Compile Include="Assets\World3\Scripts\Test.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
