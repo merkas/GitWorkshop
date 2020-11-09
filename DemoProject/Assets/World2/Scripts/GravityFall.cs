@@ -10,7 +10,7 @@ public class GravityFall : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isFalling)
+        if (isFalling && !calledOnce)
         {
             Vector3 currentPos = gameObject.transform.position;
             gameObject.transform.position = currentPos - new Vector3(0, gravityValue, 0);
@@ -21,9 +21,11 @@ public class GravityFall : MonoBehaviour
 
         if (!isFalling && !calledOnce)
         {
+            calledOnce = true;
+            Debug.Log(!calledOnce);
             this.GetComponent<ParticleEffectSpawner>().SpawnParticleEffectOneTime();
             this.GetComponent<TimedDestroy>().WaitAndDestroy();
-            calledOnce = true;
+            this.GetComponent<ImpactDistributer>().DistributeImpact();
         }
     }
 }
