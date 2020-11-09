@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e22fd9cdfbbfe644b9e107987bd02b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxImpactDist: 10
-  impactForce: 100
+  maxImpactDist: 20
+  impactForce: 300
 --- !u!54 &4355821282046147764
 Rigidbody:
   m_ObjectHideFlags: 0

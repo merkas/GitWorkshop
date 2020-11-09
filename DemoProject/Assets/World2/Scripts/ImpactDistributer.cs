@@ -23,7 +23,7 @@ public class ImpactDistributer : MonoBehaviour
 
             float forceValue = (1 - (dist / maxImpactDist)) * impactForce;
             //maxDist 10  current 3  for current 0 maxForce; for current 10 minForce::       3 / 10 = 0.3 -> 1-0.3 * 10
-
+            Debug.Log(forceDirection * forceValue);
             currentRb.velocity = (forceDirection * forceValue);
         }
     }
