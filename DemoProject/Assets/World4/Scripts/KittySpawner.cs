@@ -5,6 +5,7 @@ using TMPro.Examples;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Playables;
 
 public class KittySpawner : MonoBehaviour
 {
@@ -22,8 +23,17 @@ public class KittySpawner : MonoBehaviour
 
     private void SpawnKitty(Vector3 position)
     {
-        Debug.Log(position);
+        Debug.Log("mouse:"+position);
         GameObject kitty = GameObject.Instantiate(kittyPrefab.gameObject, position, Quaternion.identity, parent);
+
+
+        //PlayableDirector kittyDirecor = kitty.AddComponent<PlayableDirector>();
+
+        PlayableDirector kittyDirector = kitty.GetComponent<PlayableDirector>();
+        kittyDirector.playOnAwake = true;
+        //kitty.transform.position = position;
+        //kitty.GetComponent<PlayableDirector>().gameObject.SetActive(true);
+        Debug.Log("kitty: "+kitty.transform.position);
 
         kitty.name = "SuperKitty" + counter;
         counter++;
