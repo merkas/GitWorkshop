@@ -105,6 +105,7 @@
     <Compile Include="Assets\World2\Scripts\SpawnReds.cs" />
     <Compile Include="Assets\World2\Scripts\TimedDestroy.cs" />
     <Compile Include="Assets\World3\Scripts\Test.cs" />
+    <Compile Include="Assets\World4\Scripts\KittySpawner.cs" />
     <Compile Include="Assets\World4\Scripts\TestScriptIcons.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
